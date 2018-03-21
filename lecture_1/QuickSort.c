@@ -48,6 +48,7 @@ void partition(int low , int high , int *pivotpoint){
             temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
+            printAll(8,arr);
         }
     }
 
