@@ -29,8 +29,8 @@ int* getZeroArr(int length);
 int min(int a , int b);
 
 int main (){
-    int pow = 5;
-    int seq = 3;
+    int pow = 3;
+    int seq = 
 
     // RECURSIVE
     printf("############## GET BINOMIAL WITH RECURSIVE ################\n");
