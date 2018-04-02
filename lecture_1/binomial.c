@@ -26,13 +26,13 @@ void prfMatrix(int **a, int height , int width);
 // 0으로 채워진 배열을 만듦
 int* getZeroArr(int length);
 // 둘 중 작은 값을 구함
-int min(int a , int b);
+//int min(int a , int b);
 
 int main (){
-    int pow = 5;
-    int seq = 3;
-
-    // RECURSIVE
+	
+    int pow = 20;
+    int seq = 15;
+	// RECURSIVE
     printf("############## GET BINOMIAL WITH RECURSIVE ################\n");
 
     clock_t recurv = clock();
@@ -95,10 +95,12 @@ int getBinoWithDynamic(int pow , int seq){
 }
 
 // UTILITY METHODS 
+/*
 int min(int a , int b){
     if(a > b) return b;
     else return a;
 }
+*/
 
 void prfArr (int *a){
     int size = sizeof(*a);
