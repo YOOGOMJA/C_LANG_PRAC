@@ -29,29 +29,28 @@ int* getZeroArr(int length);
 //int min(int a , int b);
 
 int main (){
-	
-    int pow = 20;
-    int seq = 15;
-	// RECURSIVE
-    printf("############## GET BINOMIAL WITH RECURSIVE ################\n");
-
-    clock_t recurv = clock();
-    
-    int ret_recur = getBinoWithRecursive(pow , seq -1);
-    
-    printf("\n############################\n");
-    printf("RESULT : %d\n", ret_recur);
-    printf("DURATION : %lums\n" , (clock() - recurv));
-    printf("############################\n");
-    printf("\n\n");
-    printf("########## GET BINOMIAL WITH DYNAMIC PROGRAMMING ##########\n");
-
-    clock_t dp = clock();
-    int ret_dp = getBinoWithDynamic(pow , seq);
-    printf("\n############################\n");
-    printf("RESULT : %d\n", ret_dp);
-    printf("DURATION : %lums" , (clock() - dp));
-    printf("\n############################\n");
+    //int pow = 20;
+    //int seq = 15;
+	//// RECURSIVE
+    //printf("############## GET BINOMIAL WITH RECURSIVE ################\n");
+	//
+    //clock_t recurv = clock();
+    //
+    //int ret_recur = getBinoWithRecursive(pow , seq -1);
+    //
+    //printf("\n############################\n");
+    //printf("RESULT : %d\n", ret_recur);
+    //printf("DURATION : %lums\n" , (clock() - recurv));
+    //printf("############################\n");
+    //printf("\n\n");
+    //printf("########## GET BINOMIAL WITH DYNAMIC PROGRAMMING ##########\n");
+	//
+    //clock_t dp = clock();
+    //int ret_dp = getBinoWithDynamic(pow , seq);
+    //printf("\n############################\n");
+    //printf("RESULT : %d\n", ret_dp);
+    //printf("DURATION : %lums" , (clock() - dp));
+    //printf("\n############################\n");
     return 0;
 }
 
