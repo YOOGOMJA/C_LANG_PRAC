@@ -21,7 +21,13 @@ int main(){
 
     printf("length : %lu , content : [%s]\n" ,(sizeof(str_3) / sizeof(char)) , str_3);
     // 3. 문자열을 입력받기 
+    
+    char str_4[5];
+    char str_5[6];
 
+    printf("insert string : ");
+    scanf("%s", str_5);
+    printf("%s" , str_5);
     
     // 4. string.h의 사용
 
